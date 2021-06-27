@@ -3,9 +3,9 @@
 # R:  
 #### Uma árvore é uma estrutura de dados composta por elementos interligados. Cada elemento contém dados que descrevem alguma coisa de interesse e geralmente são chamados de nós. Dois nós são conectados por meio de ligações chamadas ramos. Como toda árvore é um tipo de grafo, um nó corresponde a um vértice do grafo e um ramo corresponde a uma aresta.
 
-#### Árvores são estruturas hierárquicas, pois há um único caminho de interligações que leva até um nó específico (árvores são grafos sem ciclos). Um nó pode levar diretamente a uma certa quantidade de nós, o que determina o grau desse nó. Se um nó permite chegar a dois outros nós diretamente, ele tem grau dois. Árvores binárias são aquelas em que cada nó leva a, no máximo, dois outros nós diretamente, como mostrada a seguir.
+#### Árvores são estruturas hierárquicas, pois há um único caminho de interligações que leva até um nó específico (árvores são grafos sem ciclos). Um nó pode levar diretamente a uma certa quantidade de nós, o que determina o grau desse nó. Se um nó permite chegar a dois outros nós diretamente, ele tem grau dois. Árvores binárias são aquelas em que cada nó leva a, no máximo, dois outros nós diretamente.
 
-#### Se a árvore binária possui todos os seus nós com o máximo de descendentes, exceto na última camada, onde todos os nós possuem grau zero, são chamadas de árvores binárias completas, como a mostrada na próxima figura.
+#### Se a árvore binária possui todos os seus nós com o máximo de descendentes, exceto na última camada, onde todos os nós possuem grau zero, são chamadas de árvores binárias completas.
 
 #### Caso nessa árvore completa do exemplo não tivesse os nós com os valores 19 e 25, ela ainda seria considerada completa, pois em geral se tolera que o último nível esteja incompleto, desde que seus nós estejam alocados na esquerda desse nível. Repare então que a árvore da primeira figura não é completa, por esse critério.
 
